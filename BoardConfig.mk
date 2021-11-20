@@ -194,5 +194,8 @@ TW_EXCLUDE_LPDUMP := true
 TW_EXCLUDE_LPTOOLS := true
 TW_INCLUDE_PYTHON := true
 
+# Exclude Apex, for A12 ROMs?
+TW_EXCLUDE_APEX := true
+
 TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.date.utc;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
