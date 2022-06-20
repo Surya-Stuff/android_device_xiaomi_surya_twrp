@@ -189,3 +189,6 @@ TW_QCOM_ATS_OFFSET := 1643101352000
 #TW_EXCLUDE_LPDUMP := true
 #TW_EXCLUDE_LPTOOLS := true
 TW_INCLUDE_PYTHON := true
+
+TW_OVERRIDE_SYSTEM_PROPS := \
+    "ro.build.date.utc;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
